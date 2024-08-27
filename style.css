@@ -1,0 +1,24 @@
+.form{
+    background-image: url(./assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fname, #lname, #mail, #number{
+    width: 450px;
+    border: 1px solid gray;
+    border-radius: 60px;
+    border: none;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#fname{
+    margin-bottom: 24px;
+    
+}
+#message{
+    margin: 24px 0;
+    width: 100%;
+    height: 250px;
+    border-radius: 30px;
+}

@@ -25,17 +25,19 @@
           }
         }
       </script>
+      <link rel="stylesheet" href="style.css">
 </head>
 <body class="Manrope ">
     <!-- header section -->
      <section class="bg-[#f7f7f7]">
       <header class="	py-8">
-        <div class="flex items-center justify-center w-4/5 mx-auto gap-20">
+        <div class="flex items-center justify-center  w-4/5 mx-auto gap-20">
           <!-- rinterio div -->
-           <div class="flex gap-2">
-            <i class="fa-solid fa-arrow-right bg-[#ABEF5F] text-[#212121] p-1 rounded-full -rotate-45 justify-start"></i>
-            
-            <h1 class="font-extrabold	text-[#212121] text-3xl">Rinterio</h1>
+          <div>
+            <button class="font-extrabold flex text-xl text-black gap-2">
+              <i class="fa-solid fa-arrow-right bg-[#ABEF5F] text-black p-2 rounded-full -rotate-45 ml-3"></i>
+              Rinterio
+            </button>
            </div>
            <!-- nev menu div-->
             <div class="flex gap-9 invisible	lg:visible">
@@ -315,27 +317,48 @@
           </div>
         </section>
         <!-- discuss next project section -->
-        <section class=" mt-2">
+        <section class="mt-2 form">
           <div class="w-3/4 mx-auto ">
             <div class="flex flex-col text-center items-center pt-16">
-              <!-- article and news btn -->
+              <!-- discuss btn -->
             <div>
               <button class="flex gap-2 items-center bg-[#eefcdf] font-bold text-[#494949] py-3 px-6 rounded-3xl">
                 <i class="fa-solid fa-arrow-right"></i>
                 Let's Connect
               </button>
              </div>
-             <!-- heading and text of article and news -->
+             <!-- heading and text of discuss -->
               <div >
                 <h1 class="pt-5 pb-6 font-bold text-5xl">Let's Discuss Next Project</h1>
                 <p class="px-28 font-medium mb-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
               </div>
             </div>
+            <!-- input section -->
+             <div class="pb-12">
+              <form action="">
+                <label for="fname"></label>
+                <input type="text" id="fname" placeholder="First Name*">
+                <label for="lname"></label>
+                <input type="text" name="" id="lname" placeholder="Last Name*"><br>
+                <label for="number"></label>
+                <input type="number" name="" id="number" placeholder="Phone Number">
+                <label for="mail"></label>
+                <input type="email" name="" id="mail" placeholder="Email Number">
+                <fieldset name="message" >
+                  <input type="text" name="" id="message" placeholder="Write your message here">
+                </fieldset>
+              </form>
+              
+              <button class="font-extrabold text-xl text-black flex items-center justify-center bg-[#ABEF5F] w-full rounded-3xl">
+                Send Mail
+                <i class="fa-solid fa-arrow-right text-black p-2 rounded-full -rotate-45 ml-3"></i>
+              </button>
+             </div>
           </div>
         </section>  
         <!-- footer section -->
          <section class="bg-black">
-          <footer class="w-3/5 mx-auto ">
+          <footer class="w-3/5 mx-auto pb-9">
             <div class="flex flex-col text-center items-center pt-16">
               <!-- footer btn -->
             <div>
@@ -346,9 +369,9 @@
              </div>
              <!--text of footer -->
               <div >
-                <p class="px-28 font-medium mb-8 pt-3 pb-8 text-[#E9E9E9]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                <p class="px-28 font-medium mb-8 pt-3 pb-8 text-[#737373]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
               </div>
-              <ul class="flex gap-16 text-[#E9E9E9] pb-14">
+              <ul class="flex gap-16 text-[#737373] pb-14">
                 <li>Home</li>
                 <li>Services</li>
                 <li>Portfolio</li>
@@ -356,6 +379,14 @@
                 <li>Contact Us</li>
               </ul>
             </div>
+            <!-- footer btn -->
+             <div class="flex flex-col text-center items-center">
+              <button class="font-extrabold text-xl text-black flex items-center justify-center bg-[#ABEF5F] rounded-3xl p-2 ">
+                Book Consult
+                <i class="fa-solid fa-arrow-right text-white bg-black p-2 rounded-full -rotate-45 ml-3"></i>
+              </button>
+             </div>
+            
            </footer>
          </section>
          
